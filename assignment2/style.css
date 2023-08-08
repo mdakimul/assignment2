@@ -1,0 +1,423 @@
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 100px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* navigation area start here */
+.nav-area{
+ display: flex;
+ position: sticky;
+ z-index: 100;
+ top: 0;
+ left: 0;
+ background: tomato;
+ 
+
+}
+.nav-area>h4{
+    margin:12px 100px;
+    color: #40c463;
+    font-size: 17px;
+}
+#manu-icon{
+    display: none;
+}
+.unordered{
+    display: flex;
+    margin: 15px 200px;
+    gap: 30px;
+    font-size: 12px;
+   
+}
+
+.unordered>li{
+    list-style-type: none;
+
+}
+.unordered>li>a{
+    color: #2da44e;
+    text-decoration: none;
+}
+
+.span{
+   color: black;
+}
+
+/* navigation area start here */
+
+/* header area start here */
+.bannar-area{
+    background-image: url("./banner-bg.jpg");
+    display: flex;
+    height: 450px;
+    background-image: cover;
+    width:1149px;
+}
+.left-side{
+ padding: 110px 140px;
+ width:750px;
+
+}
+.left-side>h1{
+    color: #40c463;
+    font-size: 35px;
+}
+.left-side>p{
+    margin-top: 10px;
+font-size: 12px;
+}
+.btn-1{
+    padding: 6px 25px;
+    margin-top: 20px;
+    background: #40c463;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn-1:hover{
+    background: black;
+    color: white;
+    text-decoration: underline;
+}
+.btn-2{
+    padding: 6px 35px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+}
+.btn-2:hover{
+background: #40c463;
+color: white;
+text-decoration: underline;
+
+}
+
+.right-side>img{
+height: 448px;
+margin-left: -20px;
+}
+/* header area end here */
+
+/* card area start here */
+.card-area{
+    width:800px;
+    height: 700px;
+    display: block;
+    margin: auto;
+    margin-left: 145px;
+}
+.card-div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 17px;
+    
+   
+   
+}
+.first-card>h1{
+    text-align: center;
+    color: #40c463;
+    margin-top: 25px;
+    font-size: 25px;
+}
+.first-card>p{
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    
+}
+.card{
+    width: 200px;
+    height: 300px;
+    box-shadow: 5px 10px 15px lightgray;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-top: 15px; 
+
+    
+    
+}
+.card>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5px;
+}
+.card>h3{
+    color: #40c463;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.card>h4{
+    text-align: center;
+    font-size: 18px;
+    margin-top:7px;
+}
+.card>p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.icon{
+    text-align: center;
+    color: #ffc501;
+    margin-top: 7px;
+}
+.btn3{
+    width: 200px;
+    margin-top: 15px;
+    background: #40c463;
+    border: none;
+    padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+.browse-btn{
+    padding: 5px 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 354px;
+    background: #40c463;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+/* card area end here */
+
+
+/* team area start here */
+
+.team{
+    width:1149px;
+    height: 440px;
+    margin-top: 60px;
+}
+.team-head>h2{
+    text-align: center;
+   padding: 20px 0px;
+   font-size: 30px;
+   color: #40c463;
+}
+.team-head>p{
+    text-align: center;
+    margin-top: -25px;
+    font-size: 12px;
+    color: black;
+}
+.all-team{
+    width: 850px;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 10px;
+   margin: auto;
+   margin-top: 10px;
+
+    
+}
+
+.single-tam{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px lightgray;
+    
+  
+}
+.single-tam>img{
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     height: 75%;
+}
+.single-tam>h3{
+text-align: center;
+margin-top: 15px;
+color: #40c463;
+
+}
+.single-tam>p{
+text-align: center;
+font-size: 12px;
+
+}
+/* team area end here */
+
+/* blog area start here */
+
+
+.all-news-card{
+    width: 850px;
+    display: block;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.head-news>h1{
+    text-align: center;
+    color: #40c463;
+
+}
+.head-news>p{
+    text-align: center;
+    font-size: 12px;
+}
+.news-card{
+    width: 274px;
+    height: 350px;
+     border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 10px 15px lightgray;
+}
+.news-card>img{
+    width: 100%;
+    height: 50%;
+}
+
+.icon2{
+    display: flex;
+    
+}
+.icon2>i{
+    font-size: 15px;
+    padding: 0px 10px;
+    color: #40c463;
+}
+.icon2>p{
+    font-size: 15px;
+    margin-top: -3px;
+    color: black;
+}
+.text-area>h5{
+font-size: 15px;
+color: #40c463;
+padding: 10px 10px;
+
+}
+.para{
+    font-size: 12px;
+    padding: 5px 10px;
+   
+    
+}
+.link-tag{
+    color: #40c463;
+    padding: 7px 10px;
+    
+}
+
+/* blog area start here */
+/* footer area start here */
+
+.footer-area{
+    width:1149px;
+    background: black;
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+.footer{
+    display: flex;
+    padding: 20px 180px;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.left-side1{
+width: 500px;
+margin-top: 15px;
+
+
+}
+.left-side1>h3{
+    color: white;    
+}
+.left-side1>p{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.medil{
+    width: 200px;
+    margin-top: 20px;
+    
+  
+
+}
+.medil>h5{
+    color: white;
+    font-size: 12px;
+     line-height: 10px;
+     margin-top: 15px;
+   
+}
+.right-side{
+    margin-top: 30px;
+    width: 150px;
+}
+
+.right-side>h5{
+    color: white;
+    line-height: 20px;
+    font-size: 12px;
+    
+    
+
+}
+.hr{
+    background: #40c463;
+    
+}
+.footer-p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+   
+}
+/* footer area end here */
+
+
+@media only screen and (min-width:200px) and(max-width:767) {
+    .nav-area{
+        display: none;
+    }
+    #manu-icon{
+
+    }
+    .nav-area>h4{
+       margin: 12px 0px;
+    }
+    .bannar-area{
+        background-image: cover; 
+        display: block;   
+        width: auto;
+        flex-direction: column;
+    }
+    
+}
